@@ -11,7 +11,7 @@ module.exports = {
   },
 
   importBowerDependencies: function(app) {
-    app.import(app.bowerDirectory + '/tether/dist/js/tether.min.js');
+    app.import(app.bowerDirectory + '/tether/dist/js/tether.js');
     // ['utils', 'tether', 'abutment', 'constraint'].forEach(function(libName){
     //   app.import(app.bowerDirectory + '/tether/src/js/' + libName + '.js');
     // });
